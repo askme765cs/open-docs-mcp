@@ -1,5 +1,6 @@
 # open-docs-mcp MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@askme765cs/open-docs-mcp)](https://smithery.ai/server/@askme765cs/open-docs-mcp)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)](package.json)
@@ -62,6 +63,14 @@ This project aims to replicate Cursor's @Docs functionality by providing:
 
 ```bash
 npx -y open-docs-mcp --docsDir ./docs
+```
+
+### Installing via Smithery
+
+To install Document Management Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@askme765cs/open-docs-mcp):
+
+```bash
+npx -y @smithery/cli install @askme765cs/open-docs-mcp --client claude
 ```
 
 ### Configuration

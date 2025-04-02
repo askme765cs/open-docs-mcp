@@ -1,0 +1,36 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - docsDir
+    properties:
+      docsDir:
+        type: string
+        description: Path to the documentation directory to crawl.
+      disabled:
+        type: boolean
+        default: false
+        description: Optionally disable the server
+      alwaysAllow:
+        type: array
+        items:
+          type: string
+        default: []
+        description: List of tool names allowed without confirmation
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: ['build/index.js', '--docsDir', config.docsDir],
+      env: {}
+    })
+  exampleConfig:
+    docsDir: ./docs
+    disabled: false
+    alwaysAllow:
+      - search_docs
