@@ -1,8 +1,10 @@
+
+
 # open-docs-mcp MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@askme765cs/open-docs-mcp)](https://smithery.ai/server/@askme765cs/open-docs-mcp)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Node Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](package.json)
+[![Node Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)](package.json)
 
 An open-source MCP implementation providing document management functionality.
