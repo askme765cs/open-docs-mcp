@@ -1,6 +1,6 @@
 # open-docs-mcp MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@askme765cs/open-docs-mcp)](https://smithery.ai/server/@askme765cs/open-docs-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.askme765cs/open-docs-mcp)](https://lightnow.ai/servers/io.github.askme765cs/open-docs-mcp)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)](package.json)
